@@ -1,0 +1,86 @@
+.home-page {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.header {
+    display: flex;
+    height: 72px ;
+}
+.global-header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: antiquewhite; 
+    height: 72px;
+    align-items: center;
+}
+.home-container {
+    display: flex;
+}
+.home-link {
+    display: flex;
+}
+.home-image {
+    display: flex;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.nav-list {
+    display: flex;
+    padding-left: 10px;
+    height: 72px;
+    overflow:hidden;
+}
+.nav-item-link {
+    display: flex;
+    width: 90px;
+    margin-right: 10px;
+    
+}
+.nav-item-container {
+    width: inherit;
+    border-width: 0 1px;
+    border-color: black;
+}
+.account-container {
+    height: 50px;
+    width: 150px;
+    display: flex;
+    border: 1px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+.grow-space {
+    display: flex;
+    flex-grow: 1;
+}
+.mac-logo-container {
+    display: flex; 
+    background-color: white;
+    border-radius: 6px;
+    height: 35px;
+    padding: 3px 3px 0 3px;
+    margin: 0 8px 0 8px;
+
+}
+.mac-logo {
+    display: flex;
+    
+}
+#pfp-container {
+    display: flex; 
+    margin: 7.5px 0px 7.5px 0;
+    
+}
+#pfp {
+    height:40px; 
+    width:40px; 
+    border-radius: 50%;
+    display: flex;
+}

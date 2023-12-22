@@ -5,18 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>test</title>
-    <style>
-        #header {
-            margin-top: 0px;
-            width: 100%;
-            background-color: antiquewhite;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
 </head>
-<body>
-    <header id="header">
-        s
+
+<body class="home-page">
+    <div id="app">
+        <header class="header">
+            <nav class="global-header">
+                <div class="home-container">
+                    <a href="/src/index.html" class="home-link">
+                        <img class="home-image" src="/images/maow.jpg" alt="Homepage"></a>
+                </div>
+                <div class="grow-space"></div>
+                <div class="nav-list">
+                    <a class="nav-item-link" href="/images/Hinata.jpg" target="_blank">
+                        <div class="nav-item-container">
+                            s
+                        </div>
+                    </a>
+                    <a class="nav-item-link" href="/images/logo.png" target="_blank">
+                        <div class="nav-item-container">
+                            s
+                        </div>
+                    </a><a class="nav-item-link" href="/images/maow.jpg" target="_blank">
+                        <div class="nav-item-container">
+                            s
+                        </div>
+                    </a>
+                </div>
+                <div class="account-container" role="button">
+                    <div class="mac-logo-container">
+                        <img class="mac-logo" src="/images/logo.png" alt="macalester-logo">
+                    </div>
+                    <div id="pfp-container">
+                        <img id="pfp" src="/images/Hinata.jpg" alt="profile-picture">
+                    </div>
+                </div>       
+            </nav>
         </header>
+    </div>  
 </body>
 
 </html>
